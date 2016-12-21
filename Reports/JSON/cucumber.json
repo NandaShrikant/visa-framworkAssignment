@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4238831105,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforestartUp(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "app start up",
+        "description": "",
+        "id": "launch-application;app-start-up",
+        "after": [
+          {
+            "result": {
+              "duration": 3900781,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4755906722,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user launches the application",
+            "match": {
+              "location": "Steps.startUp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2405813578,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "Steps.getHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 145599713,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the main menu is available",
+            "match": {
+              "location": "Steps.checkMainMenu()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@StartUp"
+          }
+        ]
+      }
+    ],
+    "name": "Launch Application",
+    "description": "Description: This feature will test application startup",
+    "id": "launch-application",
+    "keyword": "Feature",
+    "uri": "F0_AppLaunch.feature"
+  }
+]
